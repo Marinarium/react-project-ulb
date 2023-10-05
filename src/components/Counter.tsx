@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './Counter.scss';
+import cl from './Counter.module.scss';
 
 const Counter: React.FC = () => {
     const [count, setCount] = useState<number>(0);
@@ -9,11 +9,11 @@ const Counter: React.FC = () => {
     };
 
     return (
-        <div className="counter">
-            <p className="count">{count}</p>
-            <div className="wrap">
-                <button className="btn" onClick={() => handleCounterChange(1)}>plus</button>
-                <button className="btn" onClick={() => handleCounterChange(-1)}>minus</button>
+        <div className={cl.counter}>
+            <p className={cl.count}>{count}</p>
+            <div className={cl.wrap}>
+                <button className={cl.btn} onClick={() => handleCounterChange(-1)}>minus</button>
+                <button className={cl.btn} onClick={() => handleCounterChange(1)}>plus</button>
             </div>
         </div>
     );
