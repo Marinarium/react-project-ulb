@@ -1,0 +1,34 @@
+.counter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.count {
+    font-size: 36px;
+    color: royalblue;
+}
+
+.wrap {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    color: white;
+    min-width: 100px;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover {
+        background-color: cornflowerblue;
+        border-color: cornflowerblue;
+        transition: background-color 200ms, border-color 200ms;
+    }
+}
