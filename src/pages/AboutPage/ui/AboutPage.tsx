@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const AboutPage = () => {
     return (
         <div>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque laborum sunt ullam. Architecto
@@ -9,4 +9,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutPage;
