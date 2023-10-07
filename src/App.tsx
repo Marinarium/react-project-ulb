@@ -4,13 +4,13 @@ import "./styles/index.scss";
 import {AboutAsync} from "./pages/About/About.async";
 import {HomeAsync} from "./pages/Home/Home.async";
 import {useTheme} from "./theme/useTheme";
-
+import {classNames} from "./helpers/classNames";
 
 const App = () => {
     const {theme, toggleTheme} = useTheme();
 
     return (
-        <div className={`app ${theme}`}>
+        <div className={classNames('app', {}, [theme])}>
             <nav className="nav">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
