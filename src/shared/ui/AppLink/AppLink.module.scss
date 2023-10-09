@@ -1,0 +1,15 @@
+.appLink {
+    color: var(--color-primary);
+    font-size: 20px;
+    transition: color 200ms;
+    text-decoration: none;
+
+    &:hover {
+        color: var(--color-accent);
+    }
+}
+
+.secondary {
+    color: var(--color-secondary);
+}
+

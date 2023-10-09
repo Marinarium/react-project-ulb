@@ -1,15 +1,13 @@
 .app.light {
     --color-bg: #F8F8FF;
-    --color-primary: #4169E1;
-    --color-secondary: #454555;
-    --color-accent: #FF6A7A;
-    --color-on-primary: #F9F8FF;
-}
+    --color-bg-inverted: #333338;
 
-.app.dark {
-    --color-bg: #002727;
-    --color-primary: #00C6C3;
-    --color-secondary: #EEEDFF;
-    --color-accent: #D674C8;
-    --color-on-primary: #434463;
+    --color-primary: #4169E1;
+    --color-primary-inverted: #d9e7ff;
+
+    --color-secondary: #3A8885;
+    --color-secondary-inverted: #e7fdfd;
+
+    --color-accent: #FF6A7A;
+    --color-accent-inverted: #faeaec;
 }
