@@ -1,8 +1,9 @@
 .navbar {
     display: flex;
     justify-content: end;
-    gap: 20px;
+    align-items: center;
+    gap: 30px;
     background-color: var(--color-bg-inverted);
     margin-bottom: 60px;
-    padding: 30px 40px;
+    padding: 30px 60px;
 }
