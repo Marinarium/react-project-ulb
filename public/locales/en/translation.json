@@ -1,0 +1,12 @@
+{
+  "test": "Hello!",
+  "navbar": {
+    "home": "Home",
+    "about": "About"
+  },
+  "sidebar": {
+    "lng": "Русский",
+    "tgl": "Toggle!",
+    "theme": "Change a theme"
+  }
+}

@@ -1,10 +1,12 @@
 import React from 'react';
+import {useTranslation} from "react-i18next";
 
 const AboutPage = () => {
+    const {t} = useTranslation('about');
+
     return (
         <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque laborum sunt ullam. Architecto
-            beatae delectus dolores modi molestias placeat totam veniam voluptate?
+            {t('title')}
         </div>
     );
 };
