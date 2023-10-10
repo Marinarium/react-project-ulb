@@ -1,0 +1,18 @@
+.sidebar {
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: var(--sidebar-width);
+    padding: 20px;
+    transition-duration: 200ms;
+}
+
+.collapsed {
+    min-width: var(--sidebar-width-collapsed);
+}
+
+.switchers {
+    //text-align: center;
+}
