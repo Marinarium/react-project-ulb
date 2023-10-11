@@ -1,0 +1,12 @@
+{
+  "navbar": {
+    "about": "about",
+    "home": "home"
+  },
+  "sidebar": {
+    "lng": "lng",
+    "tgl": "tgl",
+    "theme": "theme"
+  },
+  "title": "title"
+}
