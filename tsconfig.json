@@ -16,7 +16,8 @@
   },
   "ts-node": { //for webpack on ts
     "compilerOptions": {
-      "module": "CommonJS"
+      "module": "CommonJS",
+      "strictNullChecks": false
     }
   }
 }
