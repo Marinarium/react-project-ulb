@@ -30,10 +30,10 @@ module.exports = {
     rules: {
         '@typescript-eslint/indent': [2, 4],
         '@typescript-eslint/explicit-function-return-type': 'off',
-        '@typescript-eslint/prefer-nullish-coalescing': 'warn',
+        '@typescript-eslint/prefer-nullish-coalescing': 'off',
         '@typescript-eslint/consistent-type-imports': 'warn',
         '@typescript-eslint/semi': 'off',
-        '@typescript-eslint/member-delimiter-style)': 'off',
+        '@typescript-eslint/member-delimiter-style': 'off',
         'react/react-in-jsx-scope': 'off',
         'no-unused-vars': 'warn',
         'react/jsx-props-no-spreading': 'warn',

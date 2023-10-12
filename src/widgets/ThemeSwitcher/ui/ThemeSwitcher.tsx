@@ -1,5 +1,4 @@
 import { classNames } from 'shared/lib/classNames';
-import cl from './ThemeSwitcher.module.scss';
 import { useTheme } from 'app/providers/ThemeProvider';
 import ThemeIcon from 'shared/assets/icons/theme.svg';
 import { Button, ThemeButton } from 'shared/ui/Button/Button';
@@ -14,7 +13,7 @@ export const ThemeSwitcher = ({ className }: IThemeSwitcherProps) => {
     const { t } = useTranslation();
     return (
         <Button theme={ThemeButton.CLEAR}
-            className={classNames(cl.themeSwitcher, {}, [className])}
+            className={classNames('', {}, [className])}
             onClick={toggleTheme}
             aria-label={t('sidebar.theme')}
         >
