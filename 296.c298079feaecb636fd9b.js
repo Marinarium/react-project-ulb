@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreact_project_ulb=self.webpackChunkreact_project_ulb||[]).push([[296],{296:(t,e,r)=>{r.r(e),r.d(e,{default:()=>a});var c=r(893),u=r(72);const a=function(){var t=(0,u.$G)("about").t;return(0,c.jsx)("div",{children:t("title")})}}}]);
