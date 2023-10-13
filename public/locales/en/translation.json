@@ -8,5 +8,6 @@
     "lng": "Русский",
     "tgl": "Toggle!",
     "theme": "Change a theme"
-  }
+  },
+  "notFound": "This page is not found..."
 }

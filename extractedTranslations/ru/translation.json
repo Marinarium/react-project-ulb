@@ -3,6 +3,7 @@
     "about": "about",
     "home": "home"
   },
+  "notFound": "notFound",
   "sidebar": {
     "lng": "lng",
     "tgl": "tgl",
