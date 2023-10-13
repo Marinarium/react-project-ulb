@@ -1,7 +1,8 @@
 module.exports = {
     env: {
         browser: true,
-        es2021: true
+        es2021: true,
+        jest: true
     },
     extends: [
         'standard-with-typescript',
@@ -39,7 +40,7 @@ module.exports = {
         'react/react-in-jsx-scope': 'off',
         'no-unused-vars': 'warn',
         'react/jsx-props-no-spreading': 'warn',
-        '@typescript-eslint/strict-boolean-expressions': 'warn',
+        '@typescript-eslint/strict-boolean-expressions': 'off',
         '@typescript-eslint/no-floating-promises': 'warn',
         '@typescript-eslint/naming-convention': 'warn',
         'i18next/no-literal-string': ['error', {markupOnly: true}]
