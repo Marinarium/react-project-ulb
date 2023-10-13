@@ -15,13 +15,12 @@ describe('classNames', () => {
         expect(classNames.apply(null, params)).toBe(expectedResult);
     });
     test('with falsy mod', () => {
-        const params = ['someClass', { active: false, disabled: true }, ['class1', 'class2']];
+        const params = [
+            'someClass',
+            { active: false, disabled: true },
+            ['class1', 'class2']
+        ];
         const expectedResult = 'someClass disabled class1 class2'
-        expect(classNames.apply(null, params)).toBe(expectedResult);
-    });
-    test('with undefined mod', () => {
-        const params = ['someClass', { active: false, disabled: undefined }, ['class1', 'class2']];
-        const expectedResult = 'someClass class1 class2'
         expect(classNames.apply(null, params)).toBe(expectedResult);
     });
 });

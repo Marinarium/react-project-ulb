@@ -44,6 +44,6 @@ module.exports = {
         '@typescript-eslint/no-floating-promises': 'warn',
         '@typescript-eslint/naming-convention': 'warn',
         'i18next/no-literal-string': ['error', {markupOnly: true}],
-        'max-len': ['error', {'ignoreComments': true}]
+        'max-len': ['error', {'ignoreComments': true, 'code': 100}]
     }
 }
