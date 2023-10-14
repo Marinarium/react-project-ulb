@@ -1,9 +1,12 @@
 {
+  "errorButton": "errorButton",
+  "errorMessage": "errorMessage",
   "navbar": {
     "about": "about",
     "home": "home"
   },
   "notFound": "notFound",
+  "reloadButton": "reloadButton",
   "sidebar": {
     "lng": "lng",
     "tgl": "tgl",

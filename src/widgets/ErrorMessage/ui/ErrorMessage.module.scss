@@ -1,0 +1,15 @@
+.errorMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.button {
+    border: 1px solid gray;
+}

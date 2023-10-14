@@ -9,5 +9,8 @@
     "tgl": "Toggle!",
     "theme": "Change a theme"
   },
-  "notFound": "This page is not found..."
+  "notFound": "This page is not found...",
+  "errorMessage": "Something went wrong...",
+  "reloadButton": "Reload",
+  "errorButton": "Throw error"
 }
