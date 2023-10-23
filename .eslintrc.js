@@ -20,6 +20,14 @@ module.exports = {
             parserOptions: {
                 sourceType: 'script'
             }
+        },
+        {
+            files: [
+                '**/src/**/*.test.{ts, tsx}'
+            ],
+            rules: {
+                'i18next/no-literal-string': 'off'
+            }
         }
     ],
     parserOptions: {
@@ -43,7 +51,13 @@ module.exports = {
         '@typescript-eslint/strict-boolean-expressions': 'off',
         '@typescript-eslint/no-floating-promises': 'warn',
         '@typescript-eslint/naming-convention': 'warn',
-        'i18next/no-literal-string': ['error', {markupOnly: true}],
+        'i18next/no-literal-string': [
+            'error',
+            {
+                markupOnly: true,
+                ignoreAttribute: ['data-testid']
+            }
+        ],
         'max-len': ['error', {'ignoreComments': true, 'code': 100}]
     }
 }

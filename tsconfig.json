@@ -19,5 +19,11 @@
       "module": "CommonJS",
       "strictNullChecks": false
     }
-  }
+  },
+  "include": [
+    "config/jest/*.ts",
+    "config/jest/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
 }

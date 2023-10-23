@@ -1,4 +1,4 @@
-import { classNames } from 'shared/lib/classNames';
+import { classNames } from 'shared/lib/classNames/classNames';
 import cl from './Sidebar.module.scss';
 import React, { useState } from 'react';
 import { Button, ThemeButton } from 'shared/ui/Button/Button';
@@ -19,8 +19,17 @@ export const Sidebar = ({ className }: ISidebarProps) => {
     }
 
     return (
-        <aside className={classNames(cl.sidebar, { [cl.collapsed]: collapsed }, [className])}>
-            <Button theme={ThemeButton.PRIMARY} onClick={onToggle}>{t('sidebar.tgl')}</Button>
+        <aside
+            data-testid="sidebar"
+            className={classNames(cl.sidebar, { [cl.collapsed]: collapsed }, [className])}
+        >
+            <Button
+                data-testid="sidebar-toggle"
+                theme={ThemeButton.PRIMARY}
+                onClick={onToggle}
+            >
+                {t('sidebar.tgl')}
+            </Button>
             <div className={cl.switchers}>
                 <ThemeSwitcher/>
                 <LangSwitcher className={cl.lang}/>
