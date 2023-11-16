@@ -4,11 +4,7 @@ module.exports = {
         es2021: true,
         jest: true
     },
-    extends: [
-        'standard-with-typescript',
-        'plugin:react/recommended',
-        'plugin:i18next/recommended'
-    ],
+    extends: ['standard-with-typescript', 'plugin:react/recommended', 'plugin:i18next/recommended', 'plugin:storybook/recommended'],
     overrides: [
         {
             env: {
@@ -55,7 +51,7 @@ module.exports = {
             'error',
             {
                 markupOnly: true,
-                ignoreAttribute: ['data-testid']
+                ignoreAttribute: ['data-testid', 'to']
             }
         ],
         'max-len': ['error', {'ignoreComments': true, 'code': 100}]
