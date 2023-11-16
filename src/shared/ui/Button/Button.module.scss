@@ -31,3 +31,18 @@
         color: var(--color-bg);
     }
 }
+
+.outline {
+    padding: 5px 10px;
+    background: none;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    color: var(--color-primary);
+    min-width: 100px;
+    font-size: 18px;
+
+    &:hover {
+        border-color: var(--color-primary-inverted);
+        color: var(--color-primary-inverted);
+    }
+}
